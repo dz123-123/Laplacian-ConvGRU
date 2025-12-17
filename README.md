@@ -12,25 +12,20 @@
 
 some other packages: geffnet, path, IPython, blessings, progressbar
 
-## Pretrained models
-You can download pre-trained model
-* [Trained with KITTI](https://drive.google.com/file/d/10Fsw3KbhiKj-rRkoIesghSPCn84TYY5P/view?usp=sharing)
-   - batch 8, SyncBatchNorm, data loss
+
 
    |  cap  |  a1   |  a2   |  a3   | Abs Rel | Sq Rel | RMSE  | RMSE log |
    | :---: |:-----:| :---: | :---: |:-------:|:------:|:-----:|:--------:|
-   | 0-80m | 0.966 | 0.995 | 0.999 |  0.056  | 0.187  | 2.306 |  0.086   |
+   | 0-80m | 0.966 | 0.995 | 0.999 |  0.055  | 0.187  | 2.296 |  0.086   |
 
    |  cap  |  a1   |  a2   |  a3   | Abs Rel | Sq Rel | RMSE  | RMSE log |
    | :---: |:-----:| :---: | :---: |:-------:|:------:|:-----:|:--------:|
    | 0-50m | 0.968 | 0.996 | 0.999 |  0.053  | 0.156  | 1.795 |  0.080   |
 
-* [Trained with NYU Depth V2](https://drive.google.com/file/d/13WyHCmQINyzprCerkOBT_Pf_W-PbWzBi/view?usp=sharing)
-   - batch 8, SyncBatchNorm, data loss
 
    |  cap  |  a1   |  a2   |  a3   | Abs Rel | log10 | RMSE  | RMSE log |
    | :---: |:-----:|:-----:|:-----:|:-------:|:-----:|:-----:|:--------:|
-   | 0-10m | 0.918 | 0.984 | 0.997 |  0.093  | 0.036 | 0.398 |    -     |
+   | 0-10m | 0.918 | 0.984 | 0.997 |  0.092  | 0.038 | 0.398 |    -     |
 
 ## Demo images (Single Test Image Prediction)
 Make sure you download the pre-trained model and placed it in the './pretrained/' directory before running the demo.  
